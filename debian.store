@@ -1,1 +1,1 @@
-{"base": "7cb5f29", "parent": "debian/rolling/realsense2_camera", "previous": "7b2d80d", "trim": "", "trimbase": ""}
+{"trim": "", "base": "fc56ea8", "trimbase": "", "parent": "debian/rolling/realsense2_camera", "previous": "0aa47ed"}
