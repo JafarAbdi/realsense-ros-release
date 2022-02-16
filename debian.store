@@ -1,1 +1,1 @@
-{"base": "2675ad5", "parent": "debian/rolling/realsense2_description", "previous": "0f0c28b", "trim": "", "trimbase": ""}
+{"trim": "", "base": "0eb821e", "trimbase": "", "parent": "debian/rolling/realsense2_description", "previous": "9d85ad0"}
