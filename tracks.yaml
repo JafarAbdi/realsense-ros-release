@@ -14,14 +14,14 @@ tracks:
       :{release_inc} --os-name fedora
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc} --os-name rhel
-    devel_branch: ros2
+    devel_branch: release-ms
     last_version: 3.2.3
     name: upstream
     patches: null
     release_inc: '1'
     release_repo_url: https://github.com/JafarAbdi/realsense-ros-release.git
-    release_tag: :{version}
+    release_tag: 100.0.0
     ros_distro: rolling
     vcs_type: git
-    vcs_uri: https://github.com/IntelRealSense/realsense-ros.git
-    version: 3.2.3
+    vcs_uri: https://github.com/JafarAbdi/realsense-ros.git
+    version: 100.0.0
