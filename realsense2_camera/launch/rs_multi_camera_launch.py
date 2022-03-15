@@ -25,7 +25,6 @@
 """Launch realsense2_camera node."""
 import copy
 from launch import LaunchDescription
-import launch_ros.actions
 from launch.actions import IncludeLaunchDescription
 from launch.substitutions import LaunchConfiguration, ThisLaunchFileDir
 from launch.launch_description_sources import PythonLaunchDescriptionSource
@@ -64,11 +63,5 @@ def generate_launch_description():
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource([ThisLaunchFileDir(), '/rs_launch.py']),
             launch_arguments=set_configurable_parameters(params2).items(),
-        ),
-        # dummy static transformation from camera1 to camera2
-        launch_ros.actions.Node(
-            package = "tf2_ros",
-            executable = "static_transform_publisher",
-            arguments = ["0", "0", "0", "0", "0", "0", "camera1_link", "camera2_link"]
         ),
     ])
