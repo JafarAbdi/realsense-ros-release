@@ -20,8 +20,8 @@ tracks:
     patches: null
     release_inc: '2'
     release_repo_url: https://github.com/JafarAbdi/realsense-ros-release.git
-    release_tag: 100.0.0
+    release_tag: 100.0.1
     ros_distro: rolling
     vcs_type: git
     vcs_uri: https://github.com/JafarAbdi/realsense-ros.git
-    version: 100.0.0
+    version: 100.0.1
